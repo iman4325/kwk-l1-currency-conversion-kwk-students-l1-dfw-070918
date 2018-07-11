@@ -55,11 +55,11 @@ when 3
 when 4
   jpy_to_usd(amount)
 when 5
-  gbp_to_usd(amount)
+ 
 when 6
  
 when 7
-  #code here
+ gbp_to_usd(amount)
 when 8
   aud_to_usd(amount)
 else
