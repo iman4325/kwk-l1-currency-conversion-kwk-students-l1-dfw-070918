@@ -57,11 +57,11 @@ when 4
 when 5
   gbp_to_usd(amount)
 when 6
-  aud_to_usd(amount)
+ 
 when 7
   #code here
 when 8
-  #code here
+  aud_to_usd(amount)
 else
   puts "Invalid input, exiting..."
 end
