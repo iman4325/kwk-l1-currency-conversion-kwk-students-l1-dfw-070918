@@ -53,9 +53,9 @@ when 2
 when 3
   usd_to_jpy(amount)
 when 4
-  jpy_to_usd(amount)
+  
 when 5
- 
+ jpy_to_usd(amount)
 when 6
  
 when 7
