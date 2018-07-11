@@ -44,7 +44,6 @@ puts "7. GBP to USD"
 puts "8. AUD to USD"
  
 choice = gets.chomp().to_i
- 
 case choice
 when 1
   usd_to_eur(amount)
