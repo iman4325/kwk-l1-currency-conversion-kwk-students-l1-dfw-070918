@@ -11,7 +11,7 @@ def usd_to_jpy(amount)
   new_currency = amount * 0.86
 end 
 
-def jpy_to_usdZ(amount)
+def jpy_to_usd(amount)
   new_currency = amount * 0.86
 end
 
@@ -40,17 +40,17 @@ choice = gets.chomp().to_i
  
 case choice
 when 1
-  #code here
+  usd_to_eur(amount)
 when 2
-  #code here
+  eur_to_usd(amoount)
 when 3
-  #code here
+  usd_to_jpy(amount)
 when 4
-  #code here
+  jpy_to_usd(amount)
 when 5
-  #code here
+  gbp_to_usd(amount)
 when 6
-  #code here
+  aud_to_usd(amount)
 when 7
   #code here
 when 8
